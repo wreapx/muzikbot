@@ -36,7 +36,7 @@ module.exports = {
         const lyricsEmbed = new MessageEmbed()
           .setColor("#ff2050")
           .setDescription(lyrics.trim());
-        return m.edit('', lyricsEmbed)
+        return m.edit('', lyricsEmbed);
       }
   m.delete()
       

@@ -1,0 +1,35 @@
+{
+  "//1": "rootuser-müzik",
+  "name": "rootuser-muzik",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "rootuser.js",
+  "scripts": {
+    "start": "node rootuser.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "genius-lyrics": "^4.2.9",
+    "opusscript": "0.0.8",
+    "path": "^0.12.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^4.8.0",
+    "ytdl-core-discord": "^1.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/join/3678810c-2f78-4117-81c2-e97f416996bb"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "author": "rootuser"
+}
